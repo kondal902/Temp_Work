@@ -1,0 +1,49 @@
+<XSDName>
+	<NameSpace>http://fcubs.ofss.com/service/FCUBSCLService</NameSpace>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Branch Code of the Loan Account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>BRN</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>BRN</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Application Number of the account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>APPLNO</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>APPLNO</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[The Customer Id of the primary applicant.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CUSTID</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CUSTID</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[Product Code is a unique code for a product must be minimum four characters.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PROD</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PROD</XSD_NODE_4>
+	</NodeDetails>
+	<Operation>CreateAccount</Operation>
+	<Release>FCUBS_12.87.4.0.0</Release>
+	<RootNode>CREATEACCOUNT_FSFS_REQ</RootNode>
+	<Service>FCUBSCLService</Service>
+</XSDName>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<note>
+<fname>Jack</fname>
+<lname>Shelby</lname>
+<prof>Traveller</prof>
+<age>29</age>
+<gender>Male</gender>
+<height val="180 cm"/>
+<lang lng="English"/>
+<lang lng="Spanish"/>
+<lang lng="French"/>
+</note>

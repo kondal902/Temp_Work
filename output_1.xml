@@ -1,0 +1,1408 @@
+<XSDName>
+	<NameSpace>http://fcubs.ofss.com/service/FCUBSCLService</NameSpace>
+	<NodeDetails>
+		<NodeName>CREATEACCOUNT_FSFS_REQ</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+	</NodeDetails>
+	<NodeDetails>
+		<NodeName>FCUBS_HEADER</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>SOURCE</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>SOURCE</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>UBSCOMP</NodeName>
+		<RESTR_1>enumeration^FCUBS,FCIS</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>UBSCOMP</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>MSGID</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>MSGID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>CORRELID</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>CORRELID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>USERID</NodeName>
+		<RESTR_1>maxLength^12</RESTR_1>
+		<RESTR_2>pattern^[A-Z_0-9]*</RESTR_2>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>USERID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>BRANCH</NodeName>
+		<RESTR_1>length^3</RESTR_1>
+		<RESTR_2>pattern^[a-zA-Z_0-9]{3}</RESTR_2>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>BRANCH</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>MODULEID</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>MODULEID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>nillable^true</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>SERVICE</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>SERVICE</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>nillable^true</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>OPERATION</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>OPERATION</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>SOURCE_OPERATION</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>SOURCE_OPERATION</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>SOURCE_USERID</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>SOURCE_USERID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>DESTINATION</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>DESTINATION</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>MULTITRIPID</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>MULTITRIPID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>FUNCTIONID</NodeName>
+		<RESTR_1>maxLength^8</RESTR_1>
+		<RESTR_2>pattern^[A-Z_0-9]*</RESTR_2>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>FUNCTIONID</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>ACTION</NodeName>
+		<RESTR_1>pattern^[a-zA-Z_0-9]*</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>ACTION</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>MSGSTAT</NodeName>
+		<RESTR_1>enumeration^SUCCESS,WARNING,FAILURE</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>MSGSTAT</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment />
+		<DataType>string</DataType>
+		<NodeName>PASSWORD</NodeName>
+		<RESTR_1>maxLength^128</RESTR_1>
+		<RESTR_2>pattern^[a-zA-Z_0-9=+/]*</RESTR_2>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>PASSWORD</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<NodeName>ADDL</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>ADDL</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<ATTR_2>maxOccurs^unbounded</ATTR_2>
+		<NodeName>PARAM</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>ADDL</XSD_NODE_3>
+		<XSD_NODE_4>PARAM</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment />
+		<DataType>String</DataType>
+		<NodeName>NAME</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>ADDL</XSD_NODE_3>
+		<XSD_NODE_4>PARAM</XSD_NODE_4>
+		<XSD_NODE_5>NAME</XSD_NODE_5>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment />
+		<DataType>String</DataType>
+		<NodeName>VALUE</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_HEADER</XSD_NODE_2>
+		<XSD_NODE_3>ADDL</XSD_NODE_3>
+		<XSD_NODE_4>PARAM</XSD_NODE_4>
+		<XSD_NODE_5>VALUE</XSD_NODE_5>
+	</NodeDetails>
+	<NodeDetails>
+		<NodeName>FCUBS_BODY</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+	</NodeDetails>
+	<NodeDetails>
+		<NodeName>Account-Master-Full</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[Account Number of the Loan Account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ACCNO</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ACCNO</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Branch Code of the Loan Account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>BRN</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>BRN</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Application Number of the account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>APPLNO</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>APPLNO</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[The Customer Id of the primary applicant.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CUSTID</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CUSTID</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[Product Code is a unique code for a product must be minimum four characters.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PROD</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PROD</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Product category is used to distinguish between the various loan services offered by the bank.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PRODCAT</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PRODCAT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The user defined status for the account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>USERDEFSTAT</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>USERDEFSTAT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Alternate Account Number]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ALTACCNO</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ALTACCNO</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[A 16-digit User Reference Number is autogenerated and displayed based on option selected.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>USERREFNO</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>USERREFNO</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Customer Id of the party who provides the Subsidy for leasing.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>SUBSIDYCUSTID</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>SUBSIDYCUSTID</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Booking date of the loan, which cannot be modified.]]</Comment>
+		<DataType>String</DataType>
+		<NodeName>BOOKDT</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>BOOKDT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Indicates valuation date of the asset.]]</Comment>
+		<DataType>String</DataType>
+		<NodeName>VALDT</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>VALDT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Maturity date of the loan.]]</Comment>
+		<DataType>String</DataType>
+		<NodeName>MATDT</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>MATDT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[The loan currency.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CCY</NodeName>
+		<RESTR_1>maxLength^3</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CCY</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<Comment>![CDATA[Total loan amount of the loan]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>AMTFINANCED</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>AMTFINANCED</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This indicates type of the Maturity (Fixed or Call) for loan account. F-Fixed, C-Call Type.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>MATTYP</NodeName>
+		<RESTR_1>enumeration^F,C</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>MATTYP</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The actual principal amount financed. This excludes any other funded components.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>NETPRIN</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>NETPRIN</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Exchange rate for index currency.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>INDEXXRATE</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>INDEXXRATE</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The reference number of the export bill against which you want to link the loan. all active and authorized export bill contracts with non zero positive outstanding amount.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>BILLREFNO</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>BILLREFNO</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Type of the commitment account. Non Revolving-N, Revolving-R.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>COMMITTYP</NodeName>
+		<RESTR_1>enumeration^N,R</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>COMMITTYP</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the loan to value.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>LOANTOVALUE</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>LOANTOVALUE</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Bill Due Amount]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>BILL_DUE_AMT</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>BILL_DUE_AMT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Available amount for the commitment account.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>AMTAVL</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>AMTAVL</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This Flag will determine if the Rollover will be system driven or initialted by user. A-Auto, M-Manual.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>AUTOMANROLL</NodeName>
+		<RESTR_1>enumeration^A,M</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>AUTOMANROLL</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This flag will determine if at the time of rollover the schedule would be defaulted from the product or from the account/Contract. P-Product,C-Contract.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>SCHBASIS</NodeName>
+		<RESTR_1>enumeration^P,C</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>SCHBASIS</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This flag will determine if at the time of rollover the UDE value would be defaulted from the product or from the account /Contract. P - Product/ C- Contract.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>UDEROLLOVER</NodeName>
+		<RESTR_1>enumeration^P,C</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>UDEROLLOVER</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This flag will determine the type of Rollover as Special or Custom. C-Custom, S-Special.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ROLLOVERTYP</NodeName>
+		<RESTR_1>enumeration^S,C</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ROLLOVERTYP</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Capture the Special Amount that has to be rolled over for Special type of Rollover.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>SPLAMT</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>SPLAMT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if a Passbook can be issued to the loan account holder.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PASSBOOKFAC</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PASSBOOKFAC</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if the Loan account can be accessible for ATM operations. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ATMFAC</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ATMFAC</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Indicates the Track Receivable Auto Liquidation. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>TRACKRECEVALIQ</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>TRACKRECEVALIQ</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Indicates the Track Receivable Manual Liquidation. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>TRACKRECEVMLIQ</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>TRACKRECEVMLIQ</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[It indicates the liquidation mode of the component.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>LIQUIDATION_MODE</NodeName>
+		<RESTR_1>enumeration^A,M,C</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>LIQUIDATION_MODE</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This preference determines if any feature such as interest rate , installment amount can be modified which will affect already paid schedules. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>AMENDPASTPAIDSCH</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>AMENDPASTPAIDSCH</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if Checks or coupon books ( for disbursement ). can be written against the Loan account. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CHEQUEBOOKFAC</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CHEQUEBOOKFAC</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if Back valued schedules can be liquidated if we book valued loan. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>LIQDBACKVALUESCH</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>LIQDBACKVALUESCH</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Indicates the Liquidity Back Valued Schedule Flag. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>LIQCOMPDATESFLG</NodeName>
+		<RESTR_1>maxLength^1</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>LIQCOMPDATESFLG</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if auto liquidation option is chosen and funds are not available, the number of times the system can retry auto liquidation. Y/N]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>RETRIESALIQ</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>RETRIESALIQ</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if any partial liquidation is allowed for the loan account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PARTIALLIQD</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PARTIALLIQD</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if auto liquidation has been reversed in an accountand it will be retries auto liquidation in the batch. Y-Yes, N-NO.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ALIQREVPMT</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ALIQREVPMT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This indicates basis for automatic Rollover. M- Monthly, Q- Quaterly, H- Half Yearly, Y - Yearly.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ROLLBY</NodeName>
+		<RESTR_1>enumeration^D,M,Q,S,Y</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ROLLBY</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if the Rollover is allowed for the loan account. Y/N]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ROLLALLOWED</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ROLLALLOWED</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Check this box to indicate that you have already got confirmation from the notary, before creation of the loan. Y/N(yes or no).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>NOTARYAUTOCONF</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>NOTARYAUTOCONF</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[customer name]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CUSTNAME</NodeName>
+		<RESTR_1>maxLength^255</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CUSTNAME</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The Loan amount paid by the customer upfront - Owners contribution.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>DOWNPAYAMT</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>DOWNPAYAMT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The Loan Value date at the time of Loan creation.]]</Comment>
+		<DataType>String</DataType>
+		<NodeName>ORIGSTDT</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ORIGSTDT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The customer Id of the primary Applicant.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PRIMAPPLID</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PRIMAPPLID</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Check this box to indicate that the intermediary should be initiated. Y/N(yes or no).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>INTERINIT</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>INTERINIT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the unique code of intermediary. The adjoining option list displays all valid codes
+maintained in the system. You can choose the appropriate one.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>INTERCODE</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>INTERCODE</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Repayment of Loans in the case of CL Accounts created with Packing Credit Product flag. Y/N(yes or no) default value is N.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PACKCREDIT</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PACKCREDIT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Check this box to indicate that the disbursement should be stopped. Y/N(yes or no) default value is N.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>STOPDSBR</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>STOPDSBR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Check this box to indicate that the annuity on disbursement should be recalculated. Y/N(yes or no).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>RECALCANNUITY</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>RECALCANNUITY</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This determines if bulk payment is allowed for the loan account. Y/N(yes or no).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ALLOWBLKPMT</NodeName>
+		<RESTR_1>enumeration^Y,N</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ALLOWBLKPMT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The number of installments for the loan account.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>NOOFINS</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>NOOFINS</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Equated Monthly Installment Amount.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>EMIAMT</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>EMIAMT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Due date (1-31) on which schedule due date should be generated.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>DUEDATESON</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>DUEDATESON</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the installment schedule frequency for a loan account.]]</Comment>
+		<DataType>decimal</DataType>
+		<NodeName>FREQ</NodeName>
+		<RESTR_1>totalDigits^22</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>FREQ</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The interval in which you need to pay your installments towards the loan account created. D-Daily, M-monthly, Q-Quarterly, H-Halfyearly, Y - Yearly.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>FREQUNIT</NodeName>
+		<RESTR_1>enumeration^D,M,W,Y,Q,H,B</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>FREQUNIT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Schedule due date of the First Installment.]]</Comment>
+		<DataType>String</DataType>
+		<NodeName>INSSTDT</NodeName>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>INSSTDT</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The payment Mode for the debit settlements (Payment). ACC- Account.
+ACC --&gt; CASA
+CCD --&gt; Credit Card
+CLG --&gt; Clearing
+DCD --&gt; Debit Card
+EAC --&gt; External Account
+EPO --&gt; Electronic Pay Order
+GIR --&gt; GIRO
+ICK --&gt; Internal Cheque
+INS --&gt; Instrument
+TLR --&gt; Cash/Teller]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>DRPAYMODE</NodeName>
+		<RESTR_1>enumeration^ACC,CCD,CLG,DCD,EAC,EPO,GIR,ICK,INS,TLR,PDC</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>DRPAYMODE</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The payment Mode for the credit settlements (Disbursement). ACC- Account.
+ACC --&gt; CASA
+CCD --&gt; Credit Card
+CLG --&gt; Clearing
+DCD --&gt; Debit Card
+EAC --&gt; External Account
+EPO --&gt; Electronic Pay Order
+GIR --&gt; GIRO
+ICK --&gt; Internal Cheque
+INS --&gt; Instrument
+TLR --&gt; Cash/Teller]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CRPAYMODE</NodeName>
+		<RESTR_1>enumeration^ACC,CCD,CLG,DCD,EAC,EPO,GIR,ICK,INS,TLR</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CRPAYMODE</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Credit settlement Product/Account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CRPRODAC</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CRPRODAC</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Branch code of the credit settlement account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CRACCBRN</NodeName>
+		<RESTR_1>maxLength^3</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CRACCBRN</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The external  bank code as per clearing maintenance (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CLGBKCR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CLGBKCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The  branch in of the external  bank to be used for clearing (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CLGBRNCR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CLGBRNCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[No on the instrument presented for clearing (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>INSTNOCR</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>INSTNOCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The routing no for the selected branch for clearing (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ROUTINGNOCR</NodeName>
+		<RESTR_1>maxLength^30</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ROUTINGNOCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The end point maintained in the clearing system will be picked up (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ENDPTCR</NodeName>
+		<RESTR_1>maxLength^10</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ENDPTCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[If the clearing is using a FLEXCUBE Clearing product then that needs to be entered (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CLGPRODCR</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CLGPRODCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The code of the clearing sector (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>SECTORCR</NodeName>
+		<RESTR_1>maxLength^9</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>SECTORCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Upload Source code (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>UPSOURCECR</NodeName>
+		<RESTR_1>maxLength^15</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>UPSOURCECR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[GIRO mode for automatic direct credit or manual direct credit.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>GIROMODECR</NodeName>
+		<RESTR_1>maxLength^1</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>GIROMODECR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The GIRO clearing system used, which can be either Bank or Plus for credit]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>GIROSVCCR</NodeName>
+		<RESTR_1>enumeration^B,P</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>GIROSVCCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This is applicable only for corporate customers and not for individual customers credit accounts.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>GIRONUMCR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>GIRONUMCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The account from which the amount is paid (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERACCCR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERACCCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The Bank code from which the amount is paid (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERBKCR</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERBKCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The Branch from which the amount is paid]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERBRNCR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERBRNCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD1CR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD1CR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD2CR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD2CR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD3CR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD3CR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD4CR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD4CR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Account number in the external bank (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>EXTACCNOCR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>EXTACCNOCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Name of the beneficiary of the external account (Credit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>EXTACCNAMECR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>EXTACCNAMECR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Product category for credit transactions.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PCCATCR</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PCCATCR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Debit settlement Product/Account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>DRPRODAC</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>DRPRODAC</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Branch code of the debit settlement account.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>DRACCBRN</NodeName>
+		<RESTR_1>maxLength^3</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>DRACCBRN</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The account number in the external bank (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>EXTACCDR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>EXTACCDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Name of the beneficiary of the external account]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>EXTACCNAMEDR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>EXTACCNAMEDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The external  bank code as per clearing maintenance (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CLGBKDR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CLGBKDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The  branch in of the external  bank to be used for clearing (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CLGBRNDR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CLGBRNDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Product Category debit]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PCCATDR</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PCCATDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[No on the instrument presented for clearing (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>INSTNODR</NodeName>
+		<RESTR_1>maxLength^16</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>INSTNODR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The routing no for the selected branch for clearing (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ROUTINGDR</NodeName>
+		<RESTR_1>maxLength^30</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ROUTINGDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The end point maintained in the clearing system will be picked up (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>ENDPTDR</NodeName>
+		<RESTR_1>maxLength^10</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>ENDPTDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[If the clearing is using a FLEXCUBE Clearing product then that needs to be entered (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>CLGPRODDR</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>CLGPRODDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The code of the clearing sector (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>SECTORDR</NodeName>
+		<RESTR_1>maxLength^9</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>SECTORDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Upload Source code (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>UPSOURCEDR</NodeName>
+		<RESTR_1>maxLength^15</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>UPSOURCEDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[GIRO mode for automatic direct debit or manual direct debit. Auto, Manual.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>GIROMODEDR</NodeName>
+		<RESTR_1>enumeration^A,M</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>GIROMODEDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The GIRO clearing system used, which can be either Bank or Plus for debit.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>GIROSVCDR</NodeName>
+		<RESTR_1>enumeration^B,P</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>GIROSVCDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[This is applicable only for corporate customers and not for individual customers debit accounts.]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>GIRONUMDR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>GIRONUMDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The account from which the amount is paid (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERACCDR</NodeName>
+		<RESTR_1>maxLength^20</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERACCDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The Bank code from which the amount is paid (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERBKDR</NodeName>
+		<RESTR_1>maxLength^4</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERBKDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[The Branch  from which the amount is paid (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERBRNDR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERBRNDR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD1DR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD1DR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD2DR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD2DR</XSD_NODE_4>
+	</NodeDetails>
+	<NodeDetails>
+		<ATTR_1>minOccurs^0</ATTR_1>
+		<Comment>![CDATA[Specify the address of the bank from which the amount is paid (Debit).]]</Comment>
+		<DataType>string</DataType>
+		<NodeName>PAYERADD3DR</NodeName>
+		<RESTR_1>maxLength^35</RESTR_1>
+		<XSD_NODE_1>CREATEACCOUNT_FSFS_REQ</XSD_NODE_1>
+		<XSD_NODE_2>FCUBS_BODY</XSD_NODE_2>
+		<XSD_NODE_3>Account-Master-Full</XSD_NODE_3>
+		<XSD_NODE_4>PAYERADD3DR</XSD_NODE_4>
+	</NodeDetails>
+	<Operation>CreateAccount</Operation>
+	<Release>FCUBS_12.87.4.0.0</Release>
+	<RootNode>CREATEACCOUNT_FSFS_REQ</RootNode>
+	<Service>FCUBSCLService</Service>
+</XSDName>
